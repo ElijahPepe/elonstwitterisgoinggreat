@@ -6,7 +6,6 @@ import { useTheme } from 'next-themes'
 export default function Home() {
   const { theme } = useTheme();
   const fillTheme = theme === 'dark' ? '#fff' : '#000';
-  console.log(fillTheme);
 
   return (
     <div className="bg-gray-50 dark:bg-gray-900">
