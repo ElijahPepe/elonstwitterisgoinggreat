@@ -29,7 +29,7 @@ export default function Home() {
             </svg>
           </div>
           <div className="inline-flex flex-col sm:flex-row w-full max-w-full truncate">
-            <a className="capsize text-gray-400 hover:text-gray-600 font-medium" href="https://github.com/ElijahPepe/elonstwitterisgoinggreat">GitHub</a>
+            <a className="capsize text-gray-400 font-medium" href="https://github.com/ElijahPepe/elonstwitterisgoinggreat">GitHub</a>
           </div>
         </div>
       </footer>
