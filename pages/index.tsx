@@ -1,11 +1,8 @@
 import Card from '../components/Card'
 import entries from '../data/entries.json'
-import { useTheme } from 'next-themes'
 
 /* eslint-disable react/no-unescaped-entities */
 export default function Home() {
-  const { theme } = useTheme();
-
   return (
     <div className="px-8 bg-gray-50 dark:bg-gray-900">
       <div className="flex flex-col justify-center items-start max-w-3xl pt-8 border-gray-200 dark:border-gray-700 mx-auto pb-16">
