@@ -16,7 +16,7 @@ export default function Card({
 			<div className="text-gray-500 text-sm">
 				<time>{format(createdAt, 'MMMM d, y')}</time>
 			</div>
-			<div className="mt-4 text-gray-700 dark:text-gray-200 [&_a]:text-bold [&_a]:text-gray-900 [&_a]:dark:text-gray-100 [&_ul]:list-disc [&_ul]:px-4 [&_ul_li]:marker:text-gray-900 [&_ul_li]:marker:dark:text-gray-100">
+			<div className="mt-4 text-gray-700 dark:text-gray-200 [&_a]:text-bold [&_a]:text-link-light [&_a]:dark:text-link-dark [&_ul]:list-disc [&_ul]:px-4 [&_ul_li]:marker:text-gray-900 [&_ul_li]:marker:dark:text-gray-100">
 				<ReactMarkdown>{description}</ReactMarkdown>
 			</div>
 		</div>
