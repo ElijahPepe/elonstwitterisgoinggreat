@@ -11,6 +11,8 @@
   "dependencies": {
     "@next/font": "^13.0.1",
     "date-fns": "^2.29.3",
+    "feed": "^4.2.2",
+    "markdown-it": "^13.0.1",
     "next": "13.0.1",
     "next-themes": "^0.2.1",
     "react": "18.2.0",
