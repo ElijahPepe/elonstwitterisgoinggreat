@@ -1,18 +1,18 @@
-import '../styles/global.css'
+import '../styles/global.css';
 
-import { ThemeProvider } from 'next-themes'
+import { ThemeProvider } from 'next-themes';
 import { Inter } from '@next/font/google';
 
 const interVariable = Inter();
 
 function App({ Component, pageProps }) {
-  return (
-    <ThemeProvider attribute="class">
-      <main className={interVariable.className}>
-        <Component {...pageProps} />
-      </main>
-    </ThemeProvider>
-  )
+	return (
+		<ThemeProvider attribute="class">
+			<main className={interVariable.className}>
+				<Component {...pageProps} />
+			</main>
+		</ThemeProvider>
+	);
 }
 
-export default App
+export default App;

@@ -1,3 +1,6 @@
 export const generateSlug = (title) => {
-	return title.replace(/[^\w\s]/gi, '').replaceAll(' ', '-').toLowerCase();
+	return title
+		.replace(/[^\w\s]/gi, '')
+		.replaceAll(' ', '-')
+		.toLowerCase();
 };
