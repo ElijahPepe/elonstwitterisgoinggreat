@@ -1,5 +1,15 @@
 [
 	{
+		"title": "GroupM warns advertising on Twitter is risky",
+		"description": "The world's largest ad agency, GroupM, has told its clients that advertising on Twitter is risky, per *Platformer* and *Digiday*.\n\n* [\"Buying ads on Twitter is ‘high-risk’ according to the world’s biggest ad agency\"](https://www.theverge.com/2022/11/14/23459254/twitter-high-risk-ads-groupm-advertisers-content-moderation), *The Verge*.",
+		"date": "November 15, 2022"
+	},
+	{
+		"title": "Critical Twitter microservices are being shut off",
+		"description": "Following [a tweet](https://twitter.com/elonmusk/status/1592177471654604800) by Elon claiming that less than 20% of Twitter's microservices are essential for the site to function, [users](https://twitter.com/FairywrenTech/status/1592191371590631424) have begun to report that two-factor authentication over SMS no longer works.",
+		"date": "November 14, 2022"
+	},
+	{
 		"title": "Services within Twitter begin breaking",
 		"description": "According to [Gergely Orosz](https://twitter.com/GergelyOrosz/status/1591437099496255490), Twitter is currently facing a staffing issue, following Twitter's mass layoffs a week prior. Although this instability is expected to subside, certain features of Twitter are already breaking, including notification counts.",
 		"date": "November 12, 2022"
